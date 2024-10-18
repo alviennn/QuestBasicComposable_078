@@ -40,6 +40,7 @@ fun BasicCompose(modifier: Modifier = Modifier) {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spaceBy(16.dp),
+        modifier = modifier
     ) {
 
     }
