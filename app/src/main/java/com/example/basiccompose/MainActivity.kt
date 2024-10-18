@@ -98,6 +98,9 @@ fun BasicCompose(modifier: Modifier = Modifier) {
                 textAlign = TextAlign.Center
             )
         )
+        Text(
+            text = "20220140078",
+        )
    }
         text = "Hello $name!",
         modifier = modifier
