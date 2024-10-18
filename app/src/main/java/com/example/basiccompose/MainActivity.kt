@@ -79,7 +79,10 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             modifier = Modifier
                 .size(100.dp)
         )
-    }
+        Text(
+            text = "Nama",
+        )
+   }
         text = "Hello $name!",
         modifier = modifier
     )
