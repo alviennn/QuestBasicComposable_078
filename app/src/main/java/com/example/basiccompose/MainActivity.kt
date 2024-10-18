@@ -90,6 +90,13 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         )
         Text(
             text = "Alvien Ridho Nanda Pryastika",
+            style = TextStyle(
+                fontSize = 23.sp,
+                fontFamily = FontFamily.Monospace,
+                fontWeight = FontWeight.Bold,
+                color = Color(0xFF00FF00),
+                textAlign = TextAlign.Center
+            )
         )
    }
         text = "Hello $name!",
