@@ -108,6 +108,10 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             ),
             modifier = Modifier.padding(bottom = 5.dp)
         )
+        Image(
+            painter = painterResource(id = R.drawable.fotopkm),
+            contentDescription = null,
+        )
    }
         text = "Hello $name!",
         modifier = modifier
