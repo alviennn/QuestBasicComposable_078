@@ -110,15 +110,10 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         Image(
             painter = painterResource(id = R.drawable.fotopkm),
             contentDescription = null,
-
+            modifier = modifier
+                .fillMaxSize()
+                .background(Color.Black)
+                .padding(16.dp)
         )
    }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    BasicComposeTheme {
-        Greeting("Android")
-    }
 }
