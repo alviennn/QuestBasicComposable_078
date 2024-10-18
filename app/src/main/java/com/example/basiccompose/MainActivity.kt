@@ -45,6 +45,7 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         modifier = modifier
             .fillMaxSize()
             .background(Color.Black)
+            .padding(16.dp)
     ) {
 
     }
