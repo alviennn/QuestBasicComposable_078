@@ -41,6 +41,7 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spaceBy(16.dp),
         modifier = modifier
+            .fillMaxSize()
     ) {
 
     }
