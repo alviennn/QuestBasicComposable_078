@@ -47,6 +47,9 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             .background(Color.Black)
             .padding(16.dp)
     ) {
+        Text(
+            text = "Indonesia"
+        )
 
     }
         text = "Hello $name!",
