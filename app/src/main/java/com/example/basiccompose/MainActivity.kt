@@ -106,6 +106,7 @@ fun BasicCompose(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color(0xFF00F000)
             ),
+            modifier = Modifier.padding(bottom = 5.dp)
         )
    }
         text = "Hello $name!",
