@@ -100,6 +100,12 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         )
         Text(
             text = "20220140078",
+            style = TextStyle(
+                fontSize = 23.sp,
+                fontFamily = FontFamily.Monospace,
+                fontWeight = FontWeight.Bold,
+                color = Color(0xFF00F000)
+            ),
         )
    }
         text = "Hello $name!",
