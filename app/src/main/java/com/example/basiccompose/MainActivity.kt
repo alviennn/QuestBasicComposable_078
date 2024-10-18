@@ -35,7 +35,6 @@ class MainActivity : ComponentActivity() {
             BasicComposeTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     BasicCompose(
-                        name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -49,7 +48,7 @@ class MainActivity : ComponentActivity() {
 fun BasicCompose(modifier: Modifier = Modifier) {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spaceBy(16.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp),
         modifier = modifier
             .fillMaxSize()
             .background(Color.Black)
@@ -111,11 +110,9 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         Image(
             painter = painterResource(id = R.drawable.fotopkm),
             contentDescription = null,
+
         )
    }
-        text = "Hello $name!",
-        modifier = modifier
-    )
 }
 
 @Preview(showBackground = true)
