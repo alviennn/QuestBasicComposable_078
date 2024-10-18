@@ -88,6 +88,9 @@ fun BasicCompose(modifier: Modifier = Modifier) {
                 color = Color(0xFF00FF00)
             )
         )
+        Text(
+            text = "Alvien Ridho Nanda Pryastika",
+        )
    }
         text = "Hello $name!",
         modifier = modifier
